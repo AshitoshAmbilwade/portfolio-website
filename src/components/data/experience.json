@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "role": "Android App Development",
+    "organisation": "Acmegrade",
+    "startDate": "Aug, 2023",
+    "endDate": "sep, 2023",
+    "location": "Online",
+    "experiences": [
+      "Worked on Android Studio",
+      "using Java and kotlin for Android app development",
+      "and also firbase and sqlite database integration"
+    ],
+    "imageSrc": "company/acmegrade.png"
+  },
+  {
+    "id": 2,
+    "role": "FrontEnd Developer",
+    "organisation": "Sukanya Softwares",
+    "startDate": "Jan, 2024",
+    "endDate": "Apr, 2024",
+    "location": "Remote",
+    "experiences": [
+      "Enhanced web application with HTML, CSS, Js And React.",
+      "collaborated with design team, optimized performance",
+      "and ensured responsive design"
+    ],
+    "imageSrc": "company/sukanya.png"
+  },
+  {
+    "id": 3,
+    "role": "FrontEnd Developer",
+    "organisation": "Marknox",
+    "startDate": "Aug, 2024",
+    "endDate": "Ongoing",
+    "location": "Remote",
+    "experiences": [
+      "Enhanced web application with HTML, CSS, Js And React.",
+      "collaborated with design team, optimized performance",
+      "and ensured responsive design"
+    ],
+    "imageSrc": "company/marknox.png"
+  }
+]
