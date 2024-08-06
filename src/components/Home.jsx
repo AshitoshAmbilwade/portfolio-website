@@ -8,7 +8,6 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Welcome to my profile",
         " full stack developer",
         " MERN Stack Developer", 
         "Frontend Developer", 
