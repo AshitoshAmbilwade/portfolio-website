@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import { FaInstagram } from "react-icons/fa";
 import { CiFacebook } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
@@ -9,8 +9,9 @@ import { SiGmail } from "react-icons/si";
 const Contact = () => {
   return (
     <>
+    <div className="contactform">
       <div className="container contact" id="contact">
-        <h1>CONTACT ME</h1>
+       <h1>CONTACT ME</h1>
         <div
           className="contact-icon"
           data-aos="zoom-in-up"
@@ -38,7 +39,6 @@ const Contact = () => {
           >
             <SiGmail className="icons" />
           </a>
-
           <div class="contact-form">
         <form action="">
           <input type="text" placeholder="Enter Your Name" required />
@@ -47,12 +47,13 @@ const Contact = () => {
           <input type="submit" value="submit" className="btn btn-outline-warning my-3 send"/>
 
         </form>
+        </div >
         </div>
-        </div>
+     
       </div>
       
 
-       
+      </div> 
       
     </>
   );

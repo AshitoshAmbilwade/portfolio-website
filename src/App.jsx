@@ -4,10 +4,10 @@ import Home from "./components/Home";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import Contact from './components/Contact';
+import Contact from "./components/Contact";
+import Last from "./components/Last"
 import Aos from "aos";
 import "aos/dist/aos.css"
-
 
 const App = () => {
  useEffect(() => {
@@ -24,6 +24,7 @@ const App = () => {
         <Projects />
         <Contact />
       </div>
+      <Last/>
     </>
   );
 };

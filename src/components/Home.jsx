@@ -9,12 +9,15 @@ const Home = () => {
     const options = {
       strings: [
         "Welcome to my profile",
-        "My Name is Ashitosh Ambilwade",
-        "I'm full stack developer",
-        "Androide Developer (React Native)",
+        " full stack developer",
+        " MERN Stack Developer", 
+        "Frontend Developer", 
+        " Android Developer",
+        " YouTuber",
       ],
-      typeSpeed: 50,
-      backSpeed: 50,
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 1000,
       loop: true,
     };
 
@@ -29,7 +32,9 @@ const Home = () => {
     <>
       <div className="container home" id="home">
         <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
-          <h1 ref={typedRef}></h1>
+        <h3>Hello, It's Me</h3>
+        <h1>Ashitosh Ambilwade</h1>
+          <h2>I'm A <span ref={typedRef} ></span></h2>
 
           <a
             href={pdf}
