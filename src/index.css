@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 100;
 }
 
 :root {
@@ -469,10 +471,6 @@ a {
 
   .contactform {
     padding: 10px;
-  }
-
-  .contact-icon {
-    flex-direction: column;
   }
 
   .contact-icon .items {

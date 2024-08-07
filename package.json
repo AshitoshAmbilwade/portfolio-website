@@ -1,6 +1,5 @@
 {
   "homepage": "https://ashitoshambilwade.github.io/portfolio-website",
-
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -15,6 +14,11 @@
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6",
+    "axios": "^1.7.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
     "particles.js": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
